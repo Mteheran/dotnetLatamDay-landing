@@ -275,7 +275,8 @@
 }
 
 .speaker-section.style-two .speaker-block .inner-box .image {
-    width: 500px;
+    width: 250px;
+    height: 250px;
     background: #fff;
     padding: 20px;
 }
