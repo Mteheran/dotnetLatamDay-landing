@@ -30,10 +30,10 @@ Conecta con profesionales, emprendedores y líderes del sector para expandir tu 
 La landing page del evento Dotnet Latam Day ha sido creada por:
 
 - **Rina Plata** - Desarrolladora Frontend  
-  [GitHub](https://github.com/Rinaplata) | [Instagram](https://instagram.com/tuusuario)
+  [GitHub](https://github.com/Rinaplata) | [Instagram](https://www.instagram.com/rina_plata)
 
 - **Miguel Teherán** - Solutions Architect, Microsoft MVP, Alibaba Cloud MVP  
-  [GitHub](https://github.com/Mteheran) | [Instagram](https://instagram.com/tuusuario)
+  [GitHub](https://github.com/Mteheran) | [Instagram](https://www.instagram.com/mteheran.dev/)
 
 ## Cómo Clonar el Proyecto
 
