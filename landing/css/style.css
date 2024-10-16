@@ -3682,8 +3682,8 @@ img{
 
 .sponsors-section .sponsors-list a{
 	position:relative;
-	opacity:0.5;
-	margin-bottom:20px;
+	gap: 25px;
+	margin-bottom:40px;
 	display:inline-block;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
