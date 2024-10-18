@@ -6739,7 +6739,7 @@ img{
 	color:#cccccc;
 }
 
-.text {
+.event-block .row text {
 	color: #5b5757;
 	flex: 1;
 	overflow: auto;
