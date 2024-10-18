@@ -2703,12 +2703,17 @@ img{
 
 /* Event Block */
 
-.event-block{
-	position:relative;
+.event-block {
+	position: relative;
+	transition: all 500ms ease;
+	border-bottom: 1px dashed #a9a3a3;
+	height: 300px; 
+	overflow: hidden;
 }
 
+
 .event-block .inner-box{
-	position:relative;
+ 	position:relative;
 	padding:55px 50px;
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
@@ -2853,7 +2858,15 @@ img{
 .event-block .inner-box .image-column .inner-column .event-time{
 	position:relative;
 	color:#222222;
-	font-size:18px;
+	font-size:19px;
+	font-weight:700;
+	line-height:1.6em;
+}
+
+.event-block .image-column .inner-column .event-time{
+	position:relative;
+	color:#000000;
+	font-size:16px;
 	font-weight:700;
 	line-height:1.6em;
 }
@@ -5905,6 +5918,11 @@ img{
 	color:#222222;
 }
 
+.colorText{
+	font-weight: 600;
+	position:relative;
+	color:#222222;
+}
 /*** 
 
 ====================================================================
@@ -6720,6 +6738,35 @@ img{
 .dark-page .event-block .inner-box .info-column .text{
 	color:#cccccc;
 }
+
+.event-block .row text {
+	color: #5b5757;
+	flex: 1;
+	overflow: auto;
+	max-height: 100px;
+	white-space: normal;
+  }
+  
+  .info-column .text::-webkit-scrollbar {
+	width: 7px;
+  }
+  
+  .info-column .text::-webkit-scrollbar-track {
+	background: #f0f0f0;
+	border-radius: 4px;
+  }
+  
+  .info-column .text::-webkit-scrollbar-thumb {
+	background: #b0b0b0; 
+	border-radius: 4px;
+  }
+  
+
+  .info-column .text::-webkit-scrollbar-thumb:hover {
+	background: #888; 
+  }
+  
+  
 
 .dark-page .event-block .inner-box .info-column .name{
 	color:#a321b9;
@@ -9499,3 +9546,21 @@ img{
 	color:#ff0000;
 	font-weight:500;	
 }
+
+  .event-block .row .image {
+	width: 100px; 
+	height: 100px; 
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  
+  .event-block .row .image img {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover;
+  }
+  
